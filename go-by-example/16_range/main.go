@@ -30,6 +30,8 @@ func main() {
         fmt.Println("key:", k)
     }
 
+	// range also can be used to iterates a string.
+	// the string will be iterated rune by rune
     for i, c := range "go" {
         fmt.Println(i, c)
     }
